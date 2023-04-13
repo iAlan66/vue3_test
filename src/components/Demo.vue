@@ -2,6 +2,7 @@
     <p>{{sentences.from}}</p> 
     <p>{{sentences.name}}</p> 
     <button @click="getSentence">随机一句古诗</button>
+    <p>{{person.firstName}}</p>
 </template>
 
 <script>

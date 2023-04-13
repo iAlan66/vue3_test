@@ -16,6 +16,11 @@ const router = createRouter({
       component: () => import('../components/Demo')
     },
     {
+      path: '/history',
+      component: () => import('../components/History')
+    },
+     
+    {
       path: '/hello',
       component: () => import('../components/HelloWorld')
     }
